@@ -10,7 +10,8 @@
 struct msg{
     float T;     // Temperature 
     int Index;    // Index indifying the process 
+    int stable;   // Is stable
 }; 
 
-struct msg prepare_message(int i_Index, float i_Temperature); 
+struct msg prepare_message(int i_Index, float i_Temperature, int i_Stable); 
 
